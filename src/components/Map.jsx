@@ -1,6 +1,10 @@
 import { React, useState, useEffect } from "react";
 import styles from "./map.module.css";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import {
+  useNavigate,
+  useRouteLoaderData,
+  useSearchParams,
+} from "react-router-dom";
 import {
   MapContainer,
   TileLayer,
@@ -11,6 +15,7 @@ import {
 } from "react-leaflet";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../Hooks/useGeolocation";
+import { useUrlPosition } from "../Hooks/useUrlPosition";
 import Button from "./Button";
 
 export default function Map() {
@@ -18,14 +23,13 @@ export default function Map() {
 
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);
-  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
     position: geoLocationPosition,
     getPosition,
   } = useGeolocation();
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function () {
@@ -51,7 +55,7 @@ export default function Map() {
       )}
       <MapContainer
         center={mapPosition}
-        zoom={13}
+        zoom={5}
         scrollWheelZoom={true}
         className={styles.map}
       >
