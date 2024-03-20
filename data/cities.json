@@ -1,54 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "c693",
-      "cityName": "Navalpino",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-03-20T01:50:51.961Z",
-      "notes": "",
-      "position": {
-        "lat": "39.291224811838646",
-        "lng": "-4.608267501745806"
-      }
-    },
-    {
       "id": "1c0d",
       "cityName": "Vendoeuvres",
       "country": "France",
@@ -61,39 +13,15 @@
       }
     },
     {
-      "id": "29b8",
-      "cityName": "In Salah",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2024-03-20T02:27:41.657Z",
+      "id": "62a1",
+      "cityName": "Bojiste",
+      "country": "Czechia",
+      "emoji": "🇨🇿",
+      "date": "2024-03-20T03:38:16.307Z",
       "notes": "",
       "position": {
-        "lat": "27.863964048911278",
-        "lng": "2.954352522695523"
-      }
-    },
-    {
-      "id": "9a64",
-      "cityName": "Hassi Delaa",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2024-03-20T02:27:41.657Z",
-      "notes": "",
-      "position": {
-        "lat": "33.08582053468655",
-        "lng": "4.01463752618716"
-      }
-    },
-    {
-      "id": "6698",
-      "cityName": "Tataouine",
-      "country": "Tunisia",
-      "emoji": "🇹🇳",
-      "date": "2024-03-20T02:38:52.739Z",
-      "notes": "",
-      "position": {
-        "lat": "32.72092274129901",
-        "lng": "9.945830787360352"
+        "lat": "49.65816865248224",
+        "lng": "15.30632419692738"
       }
     }
   ]
